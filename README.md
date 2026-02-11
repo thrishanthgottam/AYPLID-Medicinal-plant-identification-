@@ -22,7 +22,7 @@ Orginal code contains:
 * MobileNet(Pretrained Classifier Model)
 ## Added.(94.3% AVG)
 1. To increase the accuracy added the Randomcrop Zoomin feature in process of extraction of the image to analysis.
-   (Because the patterns of every plant are unique)
+   (Because the patterns of every plant is unique)
 ## Work to be done.
 1. Develop a database with all the information of the dataset classes.
 2. Upload the database into a REST API.(So far plan for local API).
