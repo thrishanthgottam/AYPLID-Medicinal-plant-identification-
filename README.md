@@ -13,7 +13,16 @@ https://www.kaggle.com/datasets/riteshranjansaroj/segmented-medicinal-leaf-image
     $ python app.py
 4. Select the photo which is to be tested.
 5. The application will display the image predicted with confidence level using the MobileNetV2 model prediction.
-
+## Changes made in the original work.
+Orginal code contains:
+* zoom
+* Rotation
+* flip
+* Brightness change
+* MobileNet(Pretrained Classifier Model)
+## Added.
+1. To increase the accuracy added the Randomcrop Zoomin feature in process of extraction of the image to analysis.
+   (Because the patterns of every plant are unique)
 ## Work to be done.
 1. Develop a database with all the information of the dataset classes.
 2. Upload the database into a REST API.(So far plan for local API).
