@@ -7,12 +7,12 @@ https://www.kaggle.com/datasets/riteshranjansaroj/segmented-medicinal-leaf-image
 ## Zip in the Repository and extract it
 1. Check for flask version else download it with this command
      $ pip install -U Flask.
-2. Check for all the other packages. If any packages are missing using this command
+2. Check for all the other packages. If any packages are missing use this command
      $ pip install -U <package-name>
 3. Run the web application 
     $ python app.py
-4. Select the file which is to be tested.
-5. The application will display the image predicted with confidence level of the MobileNetV2 model prediction.
+4. Select the photo which is to be tested.
+5. The application will display the image predicted with confidence level using the MobileNetV2 model prediction.
 
 ## Work to be done.
 1. Develop a database with all the information of the dataset classes.
