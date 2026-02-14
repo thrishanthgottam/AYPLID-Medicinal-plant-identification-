@@ -23,7 +23,7 @@ https://www.kaggle.com/datasets/riteshranjansaroj/segmented-medicinal-leaf-image
 1. To increase the accuracy added the Randomcrop Zoomin feature in process of extraction of the image to analysis.
    (Because the patterns of every plant is unique).
 2. Added a cache chunk of 8-8 size (for paral processing).
-3. Randomcrop for extracting the peace of chunk for analysis.   
+3. Randomcrop for extracting the piece of chunk for analysis.   
 ## Work to be done.
 1. Develop a database with all the information of the dataset classes.
 2. Upload the database into a REST API.(So far plan for local API).
